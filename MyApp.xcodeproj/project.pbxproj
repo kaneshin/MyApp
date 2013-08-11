@@ -28,6 +28,22 @@
 		7970E6F317AD7C2300EEEEF4 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7970E6C617AD7C2300EEEEF4 /* CoreData.framework */; };
 		7970E6FB17AD7C2300EEEEF4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7970E6F917AD7C2300EEEEF4 /* InfoPlist.strings */; };
 		7970E6FE17AD7C2300EEEEF4 /* MyAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7970E6FD17AD7C2300EEEEF4 /* MyAppTests.m */; };
+		7970E71017AD7FC700EEEEF4 /* MYUniversalHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7970E70F17AD7FC700EEEEF4 /* MYUniversalHelper.m */; };
+		7970E71417AD80BA00EEEEF4 /* MYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7970E71317AD80BA00EEEEF4 /* MYViewController.m */; };
+		7970E71717AD810000EEEEF4 /* MYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7970E71617AD810000EEEEF4 /* MYModel.m */; };
+		7970E71917AD829F00EEEEF4 /* libBlocksKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7970E71817AD829F00EEEEF4 /* libBlocksKit.a */; };
+		7970E71B17AD82E600EEEEF4 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7970E71A17AD82E600EEEEF4 /* MessageUI.framework */; };
+		7970E71D17AD833100EEEEF4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7970E71C17AD833000EEEEF4 /* QuartzCore.framework */; };
+		7970E71F17AD833600EEEEF4 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7970E71E17AD833600EEEEF4 /* Accelerate.framework */; };
+		7970E72617AD894300EEEEF4 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7970E72517AD894300EEEEF4 /* NSString+Extension.m */; };
+		7970E72717AD8F0500EEEEF4 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7970E71E17AD833600EEEEF4 /* Accelerate.framework */; };
+		7970E72817AD8F0B00EEEEF4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7970E71C17AD833000EEEEF4 /* QuartzCore.framework */; };
+		7970E72917AD8F1100EEEEF4 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7970E71A17AD82E600EEEEF4 /* MessageUI.framework */; };
+		7970E72B17AD8F1900EEEEF4 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7970E72A17AD8F1800EEEEF4 /* CoreFoundation.framework */; };
+		7970E72C17AD8F2600EEEEF4 /* libBlocksKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7970E71817AD829F00EEEEF4 /* libBlocksKit.a */; };
+		79E5E0BE17B7DC5D00DBA9A5 /* UIColor+Flat.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E5E0BD17B7DC5D00DBA9A5 /* UIColor+Flat.m */; };
+		79E5E0C217B805FA00DBA9A5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7970E6C417AD7C2300EEEEF4 /* CoreGraphics.framework */; };
+		79E5E0C517B8141D00DBA9A5 /* UIDevice+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E5E0C417B8141D00DBA9A5 /* UIDevice+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +84,26 @@
 		7970E6FA17AD7C2300EEEEF4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7970E6FC17AD7C2300EEEEF4 /* MyAppTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyAppTests.h; sourceTree = "<group>"; };
 		7970E6FD17AD7C2300EEEEF4 /* MyAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyAppTests.m; sourceTree = "<group>"; };
+		7970E70C17AD7F4B00EEEEF4 /* MyApp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyApp.h; sourceTree = "<group>"; };
+		7970E70E17AD7FC700EEEEF4 /* MYUniversalHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYUniversalHelper.h; sourceTree = "<group>"; };
+		7970E70F17AD7FC700EEEEF4 /* MYUniversalHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYUniversalHelper.m; sourceTree = "<group>"; };
+		7970E71117AD7FE100EEEEF4 /* MYHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MYHelper.h; sourceTree = "<group>"; };
+		7970E71217AD80BA00EEEEF4 /* MYViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYViewController.h; sourceTree = "<group>"; };
+		7970E71317AD80BA00EEEEF4 /* MYViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYViewController.m; sourceTree = "<group>"; };
+		7970E71517AD810000EEEEF4 /* MYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYModel.h; sourceTree = "<group>"; };
+		7970E71617AD810000EEEEF4 /* MYModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYModel.m; sourceTree = "<group>"; };
+		7970E71817AD829F00EEEEF4 /* libBlocksKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libBlocksKit.a; path = External/BlocksKit/libBlocksKit.a; sourceTree = "<group>"; };
+		7970E71A17AD82E600EEEEF4 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		7970E71C17AD833000EEEEF4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7970E71E17AD833600EEEEF4 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		7970E72417AD894300EEEEF4 /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		7970E72517AD894300EEEEF4 /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+		7970E72A17AD8F1800EEEEF4 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		79E5E0BC17B7DC5D00DBA9A5 /* UIColor+Flat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Flat.h"; sourceTree = "<group>"; };
+		79E5E0BD17B7DC5D00DBA9A5 /* UIColor+Flat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Flat.m"; sourceTree = "<group>"; };
+		79E5E0C017B7F85600DBA9A5 /* MYCGGeometry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MYCGGeometry.h; sourceTree = "<group>"; };
+		79E5E0C317B8141C00DBA9A5 /* UIDevice+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Extension.h"; sourceTree = "<group>"; };
+		79E5E0C417B8141D00DBA9A5 /* UIDevice+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,10 +111,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7970E71F17AD833600EEEEF4 /* Accelerate.framework in Frameworks */,
+				7970E71D17AD833100EEEEF4 /* QuartzCore.framework in Frameworks */,
+				7970E71B17AD82E600EEEEF4 /* MessageUI.framework in Frameworks */,
 				7970E6C117AD7C2300EEEEF4 /* UIKit.framework in Frameworks */,
 				7970E6C317AD7C2300EEEEF4 /* Foundation.framework in Frameworks */,
 				7970E6C517AD7C2300EEEEF4 /* CoreGraphics.framework in Frameworks */,
 				7970E6C717AD7C2300EEEEF4 /* CoreData.framework in Frameworks */,
+				7970E71917AD829F00EEEEF4 /* libBlocksKit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +126,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79E5E0C217B805FA00DBA9A5 /* CoreGraphics.framework in Frameworks */,
+				7970E72C17AD8F2600EEEEF4 /* libBlocksKit.a in Frameworks */,
+				7970E72B17AD8F1900EEEEF4 /* CoreFoundation.framework in Frameworks */,
+				7970E72917AD8F1100EEEEF4 /* MessageUI.framework in Frameworks */,
+				7970E72817AD8F0B00EEEEF4 /* QuartzCore.framework in Frameworks */,
+				7970E72717AD8F0500EEEEF4 /* Accelerate.framework in Frameworks */,
 				7970E6F017AD7C2300EEEEF4 /* SenTestingKit.framework in Frameworks */,
 				7970E6F117AD7C2300EEEEF4 /* UIKit.framework in Frameworks */,
 				7970E6F217AD7C2300EEEEF4 /* Foundation.framework in Frameworks */,
@@ -118,6 +164,11 @@
 		7970E6BF17AD7C2300EEEEF4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7970E72A17AD8F1800EEEEF4 /* CoreFoundation.framework */,
+				7970E71E17AD833600EEEEF4 /* Accelerate.framework */,
+				7970E71C17AD833000EEEEF4 /* QuartzCore.framework */,
+				7970E71A17AD82E600EEEEF4 /* MessageUI.framework */,
+				7970E71817AD829F00EEEEF4 /* libBlocksKit.a */,
 				7970E6C017AD7C2300EEEEF4 /* UIKit.framework */,
 				7970E6C217AD7C2300EEEEF4 /* Foundation.framework */,
 				7970E6C417AD7C2300EEEEF4 /* CoreGraphics.framework */,
@@ -130,15 +181,17 @@
 		7970E6C817AD7C2300EEEEF4 /* MyApp */ = {
 			isa = PBXGroup;
 			children = (
+				7970E70C17AD7F4B00EEEEF4 /* MyApp.h */,
 				7970E6D117AD7C2300EEEEF4 /* MYAppDelegate.h */,
 				7970E6D217AD7C2300EEEEF4 /* MYAppDelegate.m */,
 				7970E6DA17AD7C2300EEEEF4 /* MainStoryboard_iPhone.storyboard */,
 				7970E6DD17AD7C2300EEEEF4 /* MainStoryboard_iPad.storyboard */,
+				7970E6E017AD7C2300EEEEF4 /* MyApp.xcdatamodeld */,
+				7970E70817AD7F0500EEEEF4 /* Classes */,
 				7970E6E317AD7C2300EEEEF4 /* MYMasterViewController.h */,
 				7970E6E417AD7C2300EEEEF4 /* MYMasterViewController.m */,
 				7970E6E617AD7C2300EEEEF4 /* MYDetailViewController.h */,
 				7970E6E717AD7C2300EEEEF4 /* MYDetailViewController.m */,
-				7970E6E017AD7C2300EEEEF4 /* MyApp.xcdatamodeld */,
 				7970E6C917AD7C2300EEEEF4 /* Supporting Files */,
 			);
 			path = MyApp;
@@ -175,6 +228,59 @@
 				7970E6F917AD7C2300EEEEF4 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7970E70817AD7F0500EEEEF4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				79E5E0BF17B7F7C500DBA9A5 /* Libraries */,
+				7970E72017AD870E00EEEEF4 /* Categories */,
+				7970E70917AD7F0500EEEEF4 /* Cores */,
+				7970E70A17AD7F0500EEEEF4 /* Helpers */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7970E70917AD7F0500EEEEF4 /* Cores */ = {
+			isa = PBXGroup;
+			children = (
+				7970E71217AD80BA00EEEEF4 /* MYViewController.h */,
+				7970E71317AD80BA00EEEEF4 /* MYViewController.m */,
+				7970E71517AD810000EEEEF4 /* MYModel.h */,
+				7970E71617AD810000EEEEF4 /* MYModel.m */,
+			);
+			path = Cores;
+			sourceTree = "<group>";
+		};
+		7970E70A17AD7F0500EEEEF4 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				7970E71117AD7FE100EEEEF4 /* MYHelper.h */,
+				7970E70E17AD7FC700EEEEF4 /* MYUniversalHelper.h */,
+				7970E70F17AD7FC700EEEEF4 /* MYUniversalHelper.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		7970E72017AD870E00EEEEF4 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				7970E72417AD894300EEEEF4 /* NSString+Extension.h */,
+				7970E72517AD894300EEEEF4 /* NSString+Extension.m */,
+				79E5E0BC17B7DC5D00DBA9A5 /* UIColor+Flat.h */,
+				79E5E0BD17B7DC5D00DBA9A5 /* UIColor+Flat.m */,
+				79E5E0C317B8141C00DBA9A5 /* UIDevice+Extension.h */,
+				79E5E0C417B8141D00DBA9A5 /* UIDevice+Extension.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		79E5E0BF17B7F7C500DBA9A5 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				79E5E0C017B7F85600DBA9A5 /* MYCGGeometry.h */,
+			);
+			path = Libraries;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,6 +400,12 @@
 				7970E6E217AD7C2300EEEEF4 /* MyApp.xcdatamodeld in Sources */,
 				7970E6E517AD7C2300EEEEF4 /* MYMasterViewController.m in Sources */,
 				7970E6E817AD7C2300EEEEF4 /* MYDetailViewController.m in Sources */,
+				7970E71017AD7FC700EEEEF4 /* MYUniversalHelper.m in Sources */,
+				7970E71417AD80BA00EEEEF4 /* MYViewController.m in Sources */,
+				7970E71717AD810000EEEEF4 /* MYModel.m in Sources */,
+				7970E72617AD894300EEEEF4 /* NSString+Extension.m in Sources */,
+				79E5E0BE17B7DC5D00DBA9A5 /* UIColor+Flat.m in Sources */,
+				79E5E0C517B8141D00DBA9A5 /* UIDevice+Extension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,8 +488,12 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -401,8 +517,12 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -414,7 +534,12 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MyApp/MyApp-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/External/BlocksKit/Headers";
 				INFOPLIST_FILE = "MyApp/MyApp-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/External/BlocksKit\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -425,7 +550,12 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MyApp/MyApp-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/External/BlocksKit/Headers";
 				INFOPLIST_FILE = "MyApp/MyApp-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/External/BlocksKit\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -441,7 +571,12 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MyApp/MyApp-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/External/BlocksKit/Headers";
 				INFOPLIST_FILE = "MyAppTests/MyAppTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/External/BlocksKit\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
@@ -458,7 +593,12 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MyApp/MyApp-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/External/BlocksKit/Headers";
 				INFOPLIST_FILE = "MyAppTests/MyAppTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/External/BlocksKit\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
@@ -484,6 +624,7 @@
 				7970E70317AD7C2300EEEEF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7970E70417AD7C2300EEEEF4 /* Build configuration list for PBXNativeTarget "MyAppTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +633,7 @@
 				7970E70617AD7C2300EEEEF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
